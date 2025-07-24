@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Incident Timeline Dashboard
 
-## Getting Started
+A real-time dashboard built with Next.js and Tailwind CSS to display incident alerts with detailed timeline and camera feed.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+##  Deployment Instructions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clone the repository**
+   ```bash
+   git clone <repo-url>
+   cd <project-folder>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install Dependecies**
+   ```bash
+   npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Create .env file and add environment variables for prisma**
+   
+4. **Run locally**
+   ```bash
+   npm run dev
+   
 
-## Learn More
+##  Tech Decisions
+ 
+1. Next.js – Chosen for its full-stack capabilities, built-in routing, and SSR/ISR support.
 
-To learn more about Next.js, take a look at the following resources:
+2. Tailwind CSS – For fast, responsive, utility-first styling.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Prisma + PostgreSQL – Strong ORM with type-safety and easy schema migrations.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Axios – For efficient data fetching.
 
-## Deploy on Vercel
+##  If I Had More Time...
+ 
+1. More loading state.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Clean code.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Implemented fetching functions in another folders.
+
+4. Implemented timeline and another optional components.
